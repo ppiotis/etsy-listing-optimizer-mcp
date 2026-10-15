@@ -1,0 +1,15 @@
+{
+  "name": "etsy-listing-optimizer",
+  "displayName": "Etsy Listing Optimizer",
+  "version": "1.0.0",
+  "description": "Write and audit Etsy listings that rank: titles within 140 characters, 13 tags within 20, structured descriptions, a 0–100 listing score and keyword clustering. Deterministic rules, no Etsy login or API key.",
+  "author": { "name": "Paris Piotis", "url": "https://github.com/ppiotis" },
+  "homepage": "https://github.com/ppiotis/etsy-listing-optimizer-mcp",
+  "repository": "https://github.com/ppiotis/etsy-listing-optimizer-mcp",
+  "license": "MIT",
+  "logo": "logo.svg",
+  "keywords": ["etsy", "seo", "ecommerce", "listings", "digital products", "marketing"],
+  "category": "marketing",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

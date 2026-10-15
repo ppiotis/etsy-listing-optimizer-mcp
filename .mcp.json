@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "etsy-listing-optimizer": {
+      "command": "npx",
+      "args": ["-y", "github:ppiotis/etsy-listing-optimizer-mcp"]
+    }
+  }
+}
