@@ -46,7 +46,7 @@ Optional: set `MCP_AUTH_TOKEN` on the server and send `Authorization: Bearer <to
 Requires Node.js 20+.
 
 ```json
-{ "mcpServers": { "etsy-listing-optimizer": { "command": "npx", "args": ["-y", "github:ppiotis/etsy-listing-optimizer-mcp"] } } }
+{ "mcpServers": { "etsy-listing-optimizer": { "command": "npx", "args": ["-y", "https://github.com/ppiotis/etsy-listing-optimizer-mcp/archive/refs/tags/v1.0.0.tar.gz"] } } }
 ```
 
 From source: `git clone https://github.com/ppiotis/etsy-listing-optimizer-mcp && cd etsy-listing-optimizer-mcp && npm ci && npm run build && node dist/stdio.js` (HTTP: `npm run start:http`, then `http://127.0.0.1:3000/mcp`).

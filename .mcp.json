@@ -2,7 +2,7 @@
   "mcpServers": {
     "etsy-listing-optimizer": {
       "command": "npx",
-      "args": ["-y", "github:ppiotis/etsy-listing-optimizer-mcp"]
+      "args": ["-y", "https://github.com/ppiotis/etsy-listing-optimizer-mcp/archive/refs/tags/v1.0.0.tar.gz"]
     }
   }
 }
