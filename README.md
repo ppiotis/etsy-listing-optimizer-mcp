@@ -18,7 +18,7 @@
 | `generate_titles` | 3–4 variants (`seo_keyword_first`, `concise` ≤70, `benefit_led`, `branded`), all ≤140 chars, primary keyword first, no word >2×, `% : & +` at most once |
 | `generate_tags` | Up to 13 unique tags ≤20 chars, multi-word phrases first, plural/word-order duplicates removed, characters sanitised. Returns `skipped` phrases and `ask_seller_about_modifiers` |
 | `generate_description` | Keyword-led opening (first 160 chars), sections (why you'll love it / what's included / how it works / size / delivery), digital-download disclosure |
-| `analyze_listing` | Score 0–100 + grade A–F over 17 checks in title, tags, description and media, plus `blockers` and `top_fixes` |
+| `analyze_listing` | Score 0–100 + grade A–F over 16 checks in title, tags, description and media, plus `blockers` and `top_fixes` |
 | `cluster_keywords` | Group a raw keyword list into themes, pick a primary per theme, flag tag-ready phrases |
 | `suggest_long_tail` | Expand a seed into long-tail variants with proven digital/physical modifiers and your attributes |
 
